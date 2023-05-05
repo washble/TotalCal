@@ -62,7 +62,7 @@ add_total = (data) => {
     for(let j = 0; j < data.length; j++) {
       result += Number(data[j][i]);
     }
-    results += result + '/';
+    results += result + split.value;
   }
   return results.substring(0, results.length - 1);
 }
